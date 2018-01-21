@@ -53,3 +53,7 @@ vn.trader/build/*
 vn.trader/dist/*
 *.bak
 
+.project
+.pydevproject
+.settings
+MyTrader
