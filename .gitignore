@@ -57,3 +57,7 @@ vn.trader/dist/*
 .pydevproject
 .settings
 MyTrader
+
+SimNow/temp
+vnpy/api/xtp/test/log/
+
