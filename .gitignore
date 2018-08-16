@@ -7,6 +7,8 @@ Release/
 *.exp
 *.pdb
 *.cd
+*.o
+*.out
 
 # Python编译文件
 *.pyc
@@ -41,17 +43,25 @@ Release/
 *.temp
 *.vt
 *.log
+*.bak
 
-vn.ctp/build/*
-vn.lts/build/*
+# 编译临时文件夹
+build/
+
+# CMake临时文件
+CMakeCache.txt
+CMakeFiles/
+build/cmake_install.cmake
+build/Makefile
+
+# 目录
 .idea
 .vscode
+.python-version
 .gitignore
 
-vn.trader/ctaAlgo/data/*
-vn.trader/build/*
-vn.trader/dist/*
-*.bak
+
+
 
 .project
 .pydevproject
